@@ -1,0 +1,3 @@
+from django.conf.urls import include, url
+from .views import YoMamaBotView
+urlpatterns = [url(r'^EAACSDZCKZBGZCsBACrtmqe34TsJZCXJwAy6y2KBYDhS84soZAoYKWlif5XQuxDklThtWgRp2jZAop61F8oac5NkDh838BP30mS2zyM0LCcZC6zJZCV2l5Bsu3ZAnkrw2iddwsjxlrvfvZBjnRDZC9ZBF6hcnnsG8TBhVYkyhlbFL0nQSIAZDZD/?$',YoMamaBotView.as_view())]
